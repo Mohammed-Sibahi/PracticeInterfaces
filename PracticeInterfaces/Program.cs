@@ -61,7 +61,7 @@ public class Huawei :  IMobilePhone
         Console.WriteLine("The purchase price for Huawei 60 Pro is $1900.");
         if (offer >= 200)
         {
-            Console.WriteLine("Purchased!")
+            Console.WriteLine("Purchased!");
         }
         else
         {
@@ -81,7 +81,7 @@ public class Program
     public static void Main(string[] args)
     {
         Samsung device1 = new Samsung();
-        Console.Write("Enter th offer for selling Samsung S23: ");
+        Console.Write("Enter offer for selling Samsung S23: ");
         double sellOffer1 = Convert.ToDouble(Console.ReadLine());
         device1.Sell(sellOffer1);
        

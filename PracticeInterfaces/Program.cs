@@ -4,3 +4,9 @@
     public void PrintReceipt();
 
 }
+
+public class CreditCardPaymentProcessor
+{
+
+}
+

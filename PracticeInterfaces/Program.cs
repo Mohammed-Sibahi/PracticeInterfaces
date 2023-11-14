@@ -25,7 +25,7 @@ public class Samsung : IMobilePhone
     public void Buy(double offer)
     {
         Console.WriteLine("The purchase price for Samsung S23 is $1500.");
-        if ((offer >= 200))
+        if (offer >= 200)
 
         {
             Console.WriteLine("Purchased successfully!");

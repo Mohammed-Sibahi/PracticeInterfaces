@@ -10,3 +10,7 @@ public class CreditCardPaymentProcessor
 
 }
 
+public class PayPalPaymentProcessor
+{
+
+}
